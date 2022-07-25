@@ -26,3 +26,17 @@ class MessagesController < ApplicationController
   end
 end
 
+
+# def edit
+#   @message = Message.new
+# end
+
+# def update
+#   room = Room.find(params[:room_id])
+#   @message = @room.messages.new(message_params)
+#   if message.update
+#     redirect_to :edit
+#   else
+#     render :edit(edit.html.erbを見せる)
+#   end
+# end
